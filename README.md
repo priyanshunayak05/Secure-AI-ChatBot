@@ -45,6 +45,12 @@ cd ChatBot-Ai-main
 python3 -m venv env
 source env/bin/activate   # On Windows use: env\Scripts\activate
 ```
+to write .env file
+'''
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+SECRET_KEY =your_secret_key_here
+ALGORITHM=HS256
+'''
 
 ### 3. Install Dependencies
 
