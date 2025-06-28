@@ -47,8 +47,10 @@ source env/bin/activate   # On Windows use: env\Scripts\activate
 ```
 to write .env file
 '''
-ACCESS_TOKEN_EXPIRE_MINUTES=30
-SECRET_KEY =your_secret_key_here
+ACCESS_TOKEN_EXPIRE_MINUTES=30,
+
+SECRET_KEY =your_secret_key_here,
+
 ALGORITHM=HS256
 '''
 
