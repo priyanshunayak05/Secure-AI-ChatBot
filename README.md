@@ -1,24 +1,23 @@
-# ChatBot-Ai
+# 🤖 ChatBot-AI
 
-A Python-based chatbot server that supports basic user management, webhook communication, and a simple database.
+ChatBot-AI is an intelligent chatbot backend designed using Python and FastAPI. It features a clean authentication system, database integration, and webhook handling. This lightweight and modular setup is ideal for building AI-driven conversational interfaces and integrating with local or cloud-based LLMs. It’s perfect for developers looking to build custom chat experiences with full control over logic, data, and user sessions.
+
+![ChatBot UI]()
+
 
 ## 📁 Project Structure
 
 ```
 ChatBot-Ai-main/
-├── .gitignore
-├── database.py
-├── init_db.py
-├── models.py
-├── requirements.txt
-├── run.sh
-├── seed_users.py
-├── server.py
-├── test.db
-├── webhook_receiver.py
-├── .github/workflows/integration.yml
-├── env/                # Python virtual environment (optional, can recreate)
-├── __pycache__/        # Compiled Python files
+├── server.py # FastAPI app
+├── database.py # SQLite DB connection
+├── models.py # ORM models
+├── init_db.py # DB schema setup
+├── seed_users.py # Optional: preloads users
+├── webhook_receiver.py # Optional: webhook handler
+├── requirements.txt # Python dependencies
+├── run.sh # Launch script
+├── test.db # SQLite database
 ```
 
 ## ⚙️ Requirements
