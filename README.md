@@ -4,6 +4,9 @@ ChatBot-AI is an intelligent chatbot backend designed using Python and FastAPI. 
 
 ![ChatBot UI](https://github.com/PRIYANSHU2003/ChatBot-Ai/blob/3b95edb3996054e902836248f1499ae43b762dd3/Screenshot%20from%202025-06-28%2016-01-04.png)
 
+### 🎥 Demo Video
+
+📽️ [Click here to watch the demo video](media/demo.mp4)
 
 ## 📁 Project Structure
 
