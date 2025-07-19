@@ -1,4 +1,4 @@
-# 🤖 ChatBot-AI
+# 🤖 Secure AI ChatBot 
 
 ChatBot-AI is an intelligent chatbot backend designed using Python and FastAPI. It features a clean authentication system, database integration, and webhook handling. This lightweight and modular setup is ideal for building AI-driven conversational interfaces and integrating with local or cloud-based LLMs. It’s perfect for developers looking to build custom chat experiences with full control over logic, data, and user sessions.
 
