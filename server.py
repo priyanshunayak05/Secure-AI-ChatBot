@@ -105,7 +105,14 @@ def get_user(db: Session, username: str):
 
 def authenticate_user(db: Session, username: str, password: str):
     user = get_user(db, username)
-    if not user or not verify_password(password, user.hashed_password):
+    if not user:
+        logger.info("User not found")
+        return None
+    logger.info(f"Stored hash: {user.hashed_password}")
+    logger.info(f"Input password: {password}")
+    result = verify_password(password, user.hashed_password)
+    logger.info(f"Password match result: {result}")
+    if not result:
         return None
     return user
 
